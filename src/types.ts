@@ -12,3 +12,9 @@ export type TAccount = {
     balance: number,
     type: ACCOUNT_TYPE
 }
+
+export type TPokemon = {
+    pokeNumero: number,
+    name: string,
+    type: string[]
+}
